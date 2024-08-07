@@ -1,7 +1,18 @@
 .navigation {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+
   ul {
     display: flex;
     margin: 30px;
+    justify-content: flex-end;
+    width: 80%;
 
     a {
       text-decoration: none;
@@ -13,7 +24,7 @@
         cursor: pointer;
 
         &:hover {
-          color: $color-3;
+          color: $white;
         }
       }
     }
@@ -39,6 +50,7 @@
             width: 100%;
           }
         }
+
         @keyframes anim {
           to {
             width: 100%;
