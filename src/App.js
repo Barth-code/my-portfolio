@@ -7,15 +7,17 @@ import Technos from "./pages/Technos";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projets" element={<Projets />} />
-        <Route path="/technos" element={<Technos />} />
-        <Route path="*" element={<Accueil />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Accueil />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projets" element={<Projets />} />
+          <Route path="/technos" element={<Technos />} />
+          <Route path="*" element={<Accueil />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 };
 
