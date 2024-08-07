@@ -1,7 +1,13 @@
 @font-face {
   font-family: "font-1";
-  src: url(./assets/fonts/JosefinSans-Medium.ttf);
+  src: url(./assets/fonts/Inter_24pt-Regular.ttf);
 }
+
+@font-face {
+  font-family: "font-2";
+  src: url(./assets/fonts/Lusitana-Regular.ttf);
+}
+
 
 $font-1: "font-1", sans-serif;
 
