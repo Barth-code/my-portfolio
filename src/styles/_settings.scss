@@ -1,10 +1,5 @@
 @font-face {
   font-family: "font-1";
-  src: url(./assets/fonts/Inter_24pt-Regular.ttf);
-}
-
-@font-face {
-  font-family: "font-2";
   src: url(./assets/fonts/Lusitana-Regular.ttf);
 }
 
@@ -13,7 +8,7 @@ $font-1: "font-1", sans-serif;
 
 $color-1: #61dafb;
 $color-2: salmon;
-$color-3: #282c34;
+$color-3: #01011D;
 $white: rgb(254, 254, 254);
 
 @mixin verticalCenter {
@@ -37,4 +32,8 @@ body {
 
 li {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }

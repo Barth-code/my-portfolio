@@ -3,6 +3,15 @@
   grid-template-columns: 30% 70%;
   justify-content: space-around;
   align-items: center;
+  border-left: 10px solid $color-2;
+  border-right: 10px solid $color-2;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: $color-3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 
   img {
     width: 50%;
@@ -36,7 +45,7 @@
         content: "";
         height: 4px;
         width: 0;
-        background: $color-1;
+        background: $color-2;
         position: absolute;
         border-radius: 10px;
         bottom: 0px;

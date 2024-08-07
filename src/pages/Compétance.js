@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../components/Navigation";
 
-const Technos = () => {
+const Competance = () => {
   return (
     <div>
       <Navigation />
@@ -10,4 +10,4 @@ const Technos = () => {
   );
 };
 
-export default Technos;
+export default Competance;
