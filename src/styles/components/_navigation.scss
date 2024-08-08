@@ -12,8 +12,47 @@
   width: 100%;
   z-index: 1000;
 
+  @include respond-to(tablet) {}
+
   img {
     width: 50%;
+  }
+
+
+  .burger {
+    display: none;
+    font-size: 3rem;
+    cursor: pointer;
+    color: $color-1;
+    margin-left: auto;
+    padding-right: 10px;
+
+    @include respond-to(tablet) {
+      display: block;
+      right: 0;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    margin: 30px;
+    justify-content: flex-end;
+    width: 80%;
+
+    @include respond-to(tablet) {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background: $color-3;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      padding: 10px 0;
+
+      &.open {
+        display: flex;
+      }
+    }
   }
 
   ul {
