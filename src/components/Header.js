@@ -5,11 +5,8 @@ const Header = () => {
     <div className="header">
       <div className="header-container">
         <div className="head-intro">
-          <h1>Bienvenue sur mon portfolio</h1>
-          <h2>
-            Je suis Ayena TCHIKPE, Développeur front-end JavaSrcipt spécilisé en
-            Réact
-          </h2>
+          <h1 className="bg-violet-100">Salut 👋, Je suis Ayena</h1>
+          <h2>Développeur front-end JavaSrcipt spécilisé en Réact</h2>
           <p>
             Découvrez mes projets, compétences et réalisations en développement
             web. Explorez mon parcours et contactez-moi pour toute collaboration
