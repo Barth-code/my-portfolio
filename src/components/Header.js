@@ -8,7 +8,7 @@ const Header = () => {
           <h1>Bienvenue sur mon portfolio</h1>
           <h2>
             Je suis Ayena TCHIKPE, Développeur front-end JavaSrcipt spécilisé en
-            Réact et Next.js
+            Réact
           </h2>
           <p>
             Découvrez mes projets, compétences et réalisations en développement
